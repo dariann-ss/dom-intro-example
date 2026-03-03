@@ -18,4 +18,9 @@ function handleClick() {
 
     //Update display
     clickDisplay.innerText = "Clicks: " + clicks;
+
+// Level 1 complete alert
+    if(clicks == 10) {
+    alert("10 Clicks! Level 1 Complete. ")
+}
 }
